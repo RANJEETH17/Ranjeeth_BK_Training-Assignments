@@ -1,0 +1,23 @@
+collection assignment
+
+ArrayList:
+
+Internal structure: Dynamic array.
+
+Access time: Fast O(1) for index access.
+
+Insert/Delete: Slow O(n) in the middle.
+
+Use case: When you need fast random access and mostly add elements at the end.
+
+LinkedList:
+
+Internal structure: Doubly linked list.
+
+Access time: Slower O(n) for index access.
+
+Insert/Delete: Fast O(1) at the beginning or end.
+
+Use case: When you need fast insertions/deletions at the start or middle.
+
+Summary: Use ArrayList for fast access and LinkedList for frequent insertions/removals.
